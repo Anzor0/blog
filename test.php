@@ -5,13 +5,13 @@
   <title>Блог IT_Минималиста!</title>
 
   <!-- Bootstrap Grid -->
-  <link rel="stylesheet" type="text/css" href="media/assets/bootstrap-grid-only/css/grid12.css">
+  <link rel="stylesheet" type="text/css" href="/media/assets/bootstrap-grid-only/css/grid12.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
   <!-- Custom -->
-  <link rel="stylesheet" type="text/css" href="media/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/media/css/style.css">
 </head>
 <body>
 
@@ -58,7 +58,7 @@
               <a>232 000 просмотров</a>
               <h3>Работа с Node.js - Программируем Ford Mustang</h3>
               <div class="block__content">
-                <img src="media/images/post-image.jpg">
+                <img src="/media/images/post-image.jpg">
 
                 <div class="full-text">
 <h1>You</h1>
@@ -160,7 +160,7 @@
                 <div class="articles articles__vertical">
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Название статьи</a>
                       <div class="article__info__meta">
@@ -171,7 +171,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Название статьи</a>
                       <div class="article__info__meta">
@@ -182,7 +182,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Название статьи</a>
                       <div class="article__info__meta">
@@ -193,7 +193,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Название статьи</a>
                       <div class="article__info__meta">
@@ -204,7 +204,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Название статьи</a>
                       <div class="article__info__meta">
@@ -224,7 +224,7 @@
                 <div class="articles articles__vertical">
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Jonny Flame</a>
                       <div class="article__info__meta">
@@ -235,7 +235,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Jonny Flame</a>
                       <div class="article__info__meta">
@@ -246,7 +246,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Jonny Flame</a>
                       <div class="article__info__meta">
@@ -257,7 +257,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Jonny Flame</a>
                       <div class="article__info__meta">
@@ -268,7 +268,7 @@
                   </article>
 
                   <article class="article">
-                    <div class="article__image" style="background-image: url(media/images/post-image.jpg);"></div>
+                    <div class="article__image" style="background-image: url(/media/images/post-image.jpg);"></div>
                     <div class="article__info">
                       <a href="#">Jonny Flame</a>
                       <div class="article__info__meta">
