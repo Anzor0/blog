@@ -113,8 +113,10 @@
               <div class="block" id="comment-add-form">
               <h3>Добавить комментарий</h3>
               <div class="block__content">
-                <form class="form" method="POST" action="/article.php?=<?php echo $art['id']; ?>#"comment-add-form">
+                <form class="form" method="POST" action="/article.php?id=<?php echo $art['id']; ?>#comment-add-form">
                   <?php
+
+
                     if(isset($_POST['do_post']))
                     {
                       $errors = array();
@@ -134,31 +136,37 @@
                         $errors[] = 'Введите текст комментария!';
                       }
 
-                      print_r($errors);
-                      exit();
+                      
                       if (empty($errors)){
+
+
+
+                        mysqli_query($connection, "INSERT INTO `comments` (`author`, `nickname`,`email`, `text`,`pubdate`, `articles_id`) VALUES('".$_POST['name']."','".$_POST['nickname']."','".$_POST['email']."','".$_POST['text']."',NOW(),'".$art['id']."')");
+                        echo '<span style="color:green; font-weight: bold; margin-bottom: 10px;">'.'Комментарий добавлен'.'</span>';
 
                       } else {
                         echo '<span style="color:red; font-weight: bold; margin-bottom: 10px;">'.$errors[0].'</span>';
                       }
+
+                      
                     }
 
                   ?>
                   <div class="form__group">
                     <div class="row">
                       <div class="col-md-4">
-                        <input type="text" class="form__control" required="" name="name" placeholder="Имя">
+                        <input type="text" class="form__control" required="" name="name" placeholder="Имя" value="<?php echo $_POST['name']; ?>">
                       </div>
                       <div class="col-md-4">
-                        <input type="text" class="form__control" required="" name="nickname" placeholder="Никнейм">
+                        <input type="text" class="form__control" required="" name="nickname" placeholder="Никнейм" value="<?php echo $_POST['nickname']; ?>">
                       </div>
                       <div class="col-md-4">
-                        <input type="text" class="form__control" required="" name="emal" placeholder="email">
+                        <input type="text" class="form__control" required="" name="email" placeholder="email" value="<?php echo $_POST['email']; ?>">
                       </div>
                     </div>
                   </div>
                   <div class="form__group">
-                    <textarea name="text" required="" class="form__control" placeholder="Текст комментария ..."></textarea>
+                    <textarea name="text" required="" class="form__control" placeholder="Текст комментария ..." value="<?php echo $_POST['text']; ?>"></textarea>
                   </div>
                   <div class="form__group">
                     <input type="submit" class="form__control" name="do_post" value="Добавить комментарий">
